@@ -35,5 +35,13 @@
 	<%= "Cube of 5 : "+cube(5) %><br>
 	<% out.print("Cube of 6 : "+cube(6)); %><br>
 	
+	<%--Directives : messaages that tells the web container to translate jsp page into corresponding servlet --%>
+	<%--Types : 
+		1. 	Page => Define attribute that apply to entire jsp page
+			eg. <%@ page attribute = 'value'%>
+					import, contentType,extends, info, buffer, language,isThreadSafe,autoFlush
+		2. include => 
+	 --%>
+	
 </body>
 </html>
