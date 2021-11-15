@@ -1,0 +1,47 @@
+<taglib>
+<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<short-name>Example TLD</short-name>
+	
+	
+	<tag>
+	<name>CurrentDateTime</name>
+	<tag-class>com.neo.DatetagJsp</tag-class>
+	<body-content>empty</body-content>
+	</tag>
+	
+	<tag>
+	<name>CurrentTime</name>
+	<tag-class>com.neo.TimeBodyTag</tag-class>
+	<body-content>scriptless</body-content>
+	</tag>
+	
+	<tag>
+	<name>Greeting</name>
+	<tag-class>com.neo.GreetingTag</tag-class>
+	<body-content>scriptless</body-content>
+	</tag>
+	
+	<tag>
+	<name>RepeatBody</name>
+	<tag-class>com.neo.RepeatBodyAttributeTag</tag-class>
+	<body-content>scriptless</body-content>
+	<attribute>
+		<name>frequency</name>
+		<required>true</required>
+	</attribute>
+	</tag>
+	<tag>
+	<name>SearchTag</name>
+	<tag-class>com.neo.SearchText</tag-class>
+	<body-content>scriptless</body-content>
+	<attribute>
+		<name>text</name>
+		<required>true</required>
+		<name>frequency</name>
+		<required>true</required>
+	</attribute>
+	</tag>
+	
+
+</taglib>
